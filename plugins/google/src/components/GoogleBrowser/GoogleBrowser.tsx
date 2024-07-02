@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page, Header, Content } from '@backstage/core-components';
 
-export const ExampleComponent = () => {
+export const GoogleBrowser = () => {
   return (
     <Page themeId="tool">
       <Header title="Inception" subtitle="Google inside Backstage" />
@@ -18,7 +18,7 @@ export const ExampleComponent = () => {
   );
 };
 
-export const ExampleComponentPage = () => {
+export const GoogleBrowserPage = () => {
   return (
     <Page themeId="tool">
       <Content>

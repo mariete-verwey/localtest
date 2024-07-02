@@ -16,7 +16,7 @@ export const Google = googlePlugin.provide(
   createRoutableExtension({
     name: 'Google',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/GoogleBrowser').then(m => m.GoogleBrowser),
     mountPoint: rootRouteRef,
   }),
 );
@@ -25,7 +25,7 @@ export const GooglePage = googlePlugin.provide(
   createRoutableExtension({
     name: 'GooglePage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponentPage),
+      import('./components/GoogleBrowser').then(m => m.GoogleBrowserPage),
     mountPoint: rootRouteRef,
   }),
 );

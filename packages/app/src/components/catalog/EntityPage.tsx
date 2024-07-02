@@ -53,7 +53,7 @@ import {
 
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
-import { ExampleComponentPage } from '@internal/backstage-plugin-google/src/components/ExampleComponent';
+import { GoogleBrowserPage } from '@internal/backstage-plugin-google/src/components/GoogleBrowser';
 
 const techdocsContent = (
   <EntityTechdocsContent>
@@ -205,7 +205,7 @@ const websiteEntityPage = (
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/backstage-plugin-google" title="Google">
-      <ExampleComponentPage />
+      <GoogleBrowserPage />
     </EntityLayout.Route>
   </EntityLayout>
 );
