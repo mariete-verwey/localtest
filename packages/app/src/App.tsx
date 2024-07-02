@@ -39,6 +39,7 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { Google } from '@internal/backstage-plugin-google';
+import { ConfluenceBrowserPage } from '@internal/backstage-plugin-confluence-browser';
 
 const app = createApp({
   apis,
@@ -110,6 +111,7 @@ const routes = (
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/google" element={<Google />} />
+    <Route path="/confluence-browser" element={<ConfluenceBrowserPage />} />
   </FlatRoutes>
 );
 

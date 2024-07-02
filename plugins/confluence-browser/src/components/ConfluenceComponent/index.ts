@@ -1,0 +1,1 @@
+export { ConfluenceComponent } from './ConfluenceComponent';
