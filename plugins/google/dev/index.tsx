@@ -1,11 +1,11 @@
 import React from 'react';
 import { createDevApp } from '@backstage/dev-utils';
-import { googlePlugin, GooglePage } from '../src/plugin';
+import { googlePlugin, Google } from '../src/plugin';
 
 createDevApp()
   .registerPlugin(googlePlugin)
   .addPage({
-    element: <GooglePage />,
+    element: <Google />,
     title: 'Root Page',
     path: '/google',
   })

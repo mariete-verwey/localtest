@@ -12,9 +12,9 @@ export const googlePlugin = createPlugin({
   },
 });
 
-export const GooglePage = googlePlugin.provide(
+export const Google = googlePlugin.provide(
   createRoutableExtension({
-    name: 'GooglePage',
+    name: 'Google',
     component: () =>
       import('./components/ExampleComponent').then(m => m.ExampleComponent),
     mountPoint: rootRouteRef,
