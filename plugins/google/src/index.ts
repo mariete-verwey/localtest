@@ -1,1 +1,1 @@
-export { googlePlugin, Google } from './plugin';
+export { googlePlugin, Google, GooglePage } from './plugin';

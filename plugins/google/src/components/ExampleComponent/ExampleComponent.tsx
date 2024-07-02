@@ -17,3 +17,19 @@ export const ExampleComponent = () => {
     </Page>
   );
 };
+
+export const ExampleComponentPage = () => {
+  return (
+    <Page themeId="tool">
+      <Content>
+        <iframe
+          src="https://www.google.com/webhp?igu=1"
+          title="Google page inside Backstage plugin"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+        />
+      </Content>
+    </Page>
+  );
+};

@@ -20,3 +20,12 @@ export const Google = googlePlugin.provide(
     mountPoint: rootRouteRef,
   }),
 );
+
+export const GooglePage = googlePlugin.provide(
+  createRoutableExtension({
+    name: 'GooglePage',
+    component: () =>
+      import('./components/ExampleComponent').then(m => m.ExampleComponentPage),
+    mountPoint: rootRouteRef,
+  }),
+);
